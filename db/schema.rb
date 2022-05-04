@@ -60,12 +60,12 @@ ActiveRecord::Schema[7.0].define(version: 2022_05_04_014741) do
     t.text "short_bio"
     t.string "linkedin_url"
     t.string "twitter_handle"
+    t.string "personal_blog"
     t.string "resume"
     t.string "github_url"
     t.string "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "personal_blog"
   end
 
   create_table "users", force: :cascade do |t|
