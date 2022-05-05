@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 
   get "/experiences" => "experiences#index"
 
+  post "/experiences" => "experiences#create"
+
   get "/skills" => "skills#index"
 
   get "/capstones" => "capstones#index"

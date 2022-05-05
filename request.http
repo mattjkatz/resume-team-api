@@ -28,6 +28,19 @@ GET http://localhost:3000/educations
 ### Experiences Index
 GET http://localhost:3000/experiences
 
+### Experiences Create
+POST http://localhost:3000/experiences
+Content-Type: application/json
+
+{
+  "student_id": 2,
+  "start_date": "03/16/2021",
+  "end_date": "07/19/2022",
+  "job_title": "Professional Basket Weaver",
+  "company_name": "We Weave Cool Baskets",
+  "details": "I weave some pretty decent baskets"
+}
+
 ### Skills Index
 GET http://localhost:3000/skills
 

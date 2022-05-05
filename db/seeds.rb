@@ -13,3 +13,6 @@ education = Education.create!([{student_id: 1, start_date: "09/22/08", end_date:
 
 skill = Skill.create!([{student_id: 1, skill_name: "css, js, ruby"}, {student_id: 2, skill_name: "html, css"}])
 
+# experience = Experience.create!([{
+#   student_id: 1, start_date: "05/25/2021",job_title: "Software Developer", details: "I did some cool things with data."},
+#   {student_id: 2, start_date: "02/12/2022", job_title: "Professional Basket Weaver", details: "I weave baskets!."}])

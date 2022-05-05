@@ -6,6 +6,7 @@ class ExperiencesController < ApplicationController
 
   def create
     experience = Experience.new(
+      student_id: params["student_id"],
       start_date: params["start_date"],
       end_date: params["end_date"],
       job_title: params["job_title"],
